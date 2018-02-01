@@ -8,7 +8,9 @@ Quantitative analysis
 Before quantitative analysis, it needs to import stocker library.
 
 from quantitative_analysis_stocker import Stocker
+
 aapl_stock = Stocker("AAPL")
+
 aapl_stock.plot_stock()  #Draw Apple's Inc stock price plot
 
 
